@@ -71,4 +71,10 @@ erDiagram
 | **POST** | `/api/v1/productDetails` | Create new product details |
 | **PUT** | `/api/v1/productDetails/{id}` | Update product details by ID |
 | **DELETE** | `/api/v1/productDetails/{id}` | Delete product details |
+---
+### API Documentation
+
+The project includes Swagger UI for exploring and testing the REST API endpoints:
+
+![Swagger UI](swagger.png)
 
