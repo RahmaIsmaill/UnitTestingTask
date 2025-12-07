@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de90df86-4465-4117-bbc9-5f45113cbfe8" name="Changes" comment="RestApis_with_UnitTesting">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/Amazon_El8alabah/conf/catalina.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/Amazon_El8alabah/conf/catalina.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/Amazon_El8alabah/conf/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/Amazon_El8alabah/conf/jaspic-providers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/Amazon_El8alabah/conf/jaspic-providers.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/Amazon_El8alabah/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/Amazon_El8alabah/conf/server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/Amazon_El8alabah/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/Amazon_El8alabah/conf/tomcat-users.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/Amazon_El8alabah/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/config/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/dao/ProductDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/entity/ProductDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/exception/ProductErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/exception/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/exception/ProductNotFoundExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/services/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hibernate-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProductApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RahmaIsmaill&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RahmaIsmaill/Bootcamp_tasks.git&quot;,
+    &quot;accountId&quot;: &quot;611951a9-dfea-41ae-922f-941204761157&quot;
+  }
+}</component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\ThrOw\.m2\repository" />
+        <option name="userSettingsFile" value="C:\Users\ThrOw\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="35WFlUcpL3MYrqhH8ayK7Ji3YJA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "JUnit.ProductApiTest.executor": "Run",
+    "JUnit.ProductApiTest.testDeleteProduct.executor": "Run",
+    "JUnit.ProductApiTest.testGetAllProducts.executor": "Run",
+    "JUnit.ProductApiTest.testGetAllresponse.executor": "Run",
+    "JUnit.ProductApiTest.testGetProductById.executor": "Run",
+    "JUnit.ProductApiTest.testGetProductsByName.executor": "Run",
+    "JUnit.ProductApiTest.testInsertProduct.executor": "Run",
+    "JUnit.ProductApiTest.testUpdateProduct.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Smart Tomcat.Run.executor": "Run",
+    "Smart Tomcat.Unnamed.executor": "Run",
+    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ThrOw/OneDrive - Computer and Information Technology (Menofia University)/Desktop/UnitTesting",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "mysql_aurora"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ThrOw\OneDrive - Computer and Information Technology (Menofia University)\Desktop\BootCamp_Tasks\Amazon El8alabah\src\main\java\com\adminPanel\app\Services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ThrOw\OneDrive - Computer and Information Technology (Menofia University)\Desktop" />
+      <recent name="C:\Users\ThrOw\OneDrive - Computer and Information Technology (Menofia University)\Desktop\BootCamp_Tasks\RestApis\src\main" />
+      <recent name="C:\Users\ThrOw\OneDrive - Computer and Information Technology (Menofia University)\Desktop\BootCamp_Tasks\RestApis\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\ThrOw\OneDrive - Computer and Information Technology (Menofia University)\Desktop\BootCamp_Tasks\RestApis\src\main\webapp\resources" />
+      <recent name="C:\Users\ThrOw\OneDrive - Computer and Information Technology (Menofia University)\Desktop\BootCamp_Tasks\Amazon El8alabah\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.adminPanel.app.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductApiTest">
+    <configuration name="ProductApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_El8alabah" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="ms-17" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductApiTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApiTest.testDeleteProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_El8alabah" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductApiTest" />
+      <option name="METHOD_NAME" value="testDeleteProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApiTest.testGetProductDetailsByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_El8alabah" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductApiTest" />
+      <option name="METHOD_NAME" value="testGetProductDetailsByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApiTest.testInsertProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_El8alabah" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductApiTest" />
+      <option name="METHOD_NAME" value="testInsertProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApiTest.testUpdateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_El8alabah" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductApiTest" />
+      <option name="METHOD_NAME" value="testUpdateProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Amazon El8alabah" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Amazon El8alabah" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="adminPort" value="8011" />
+      <option name="catalinaBase" value="C:\Users\ThrOw\.SmartTomcat\Amazon El8alabah\Amazon_El8alabah" />
+      <option name="contextPath" value="/Amazon_El8alabah" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="port" value="8082" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.109" />
+          <option name="path" value="$USER_HOME$/OneDrive/Documents/apache-tomcat-9.0.109-windows-x64/apache-tomcat-9.0.109" />
+          <option name="version" value="9.0.109.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="Amazon_El8alabah" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="adminPort" value="8010" />
+      <option name="catalinaBase" value="" />
+      <option name="contextPath" value="" />
+      <option name="docBase" value="" />
+      <option name="extraClassPath" value="" />
+      <option name="port" value="8081" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.109" />
+          <option name="path" value="$USER_HOME$/OneDrive/Documents/apache-tomcat-9.0.109-windows-x64/apache-tomcat-9.0.109" />
+          <option name="version" value="9.0.109.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ProductApiTest" />
+      <item itemvalue="JUnit.ProductApiTest.testDeleteProduct" />
+      <item itemvalue="JUnit.ProductApiTest.testGetProductDetailsByName" />
+      <item itemvalue="JUnit.ProductApiTest.testInsertProduct" />
+      <item itemvalue="JUnit.ProductApiTest.testUpdateProduct" />
+      <item itemvalue="Smart Tomcat.Run" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductApiTest" />
+        <item itemvalue="JUnit.ProductApiTest.testDeleteProduct" />
+        <item itemvalue="JUnit.ProductApiTest.testUpdateProduct" />
+        <item itemvalue="JUnit.ProductApiTest.testInsertProduct" />
+        <item itemvalue="JUnit.ProductApiTest.testGetProductDetailsByName" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de90df86-4465-4117-bbc9-5f45113cbfe8" name="Changes" comment="" />
+      <created>1763218073569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763218073569</updated>
+      <workItem from="1763218074928" duration="6723000" />
+      <workItem from="1763303033996" duration="18949000" />
+      <workItem from="1763401416104" duration="4693000" />
+      <workItem from="1763744883271" duration="1249000" />
+      <workItem from="1763746629887" duration="553000" />
+      <workItem from="1763830039695" duration="2938000" />
+      <workItem from="1763833048544" duration="1343000" />
+      <workItem from="1764180966335" duration="733000" />
+      <workItem from="1764428208043" duration="16672000" />
+      <workItem from="1764516151132" duration="1971000" />
+      <workItem from="1764527090846" duration="6259000" />
+      <workItem from="1764536802683" duration="74000" />
+      <workItem from="1765149080152" duration="867000" />
+      <workItem from="1765149966702" duration="84000" />
+    </task>
+    <task id="LOCAL-00001" summary="amazon_el8alabah">
+      <option name="closed" value="true" />
+      <created>1763405569215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763405569215</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rest">
+      <option name="closed" value="true" />
+      <created>1763834110065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763834110065</updated>
+    </task>
+    <task id="LOCAL-00003" summary="RestApis_with_UnitTesting">
+      <option name="closed" value="true" />
+      <created>1764533122899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764533122899</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="amazon_el8alabah" />
+    <MESSAGE value="Rest" />
+    <MESSAGE value="RestApis_with_UnitTesting" />
+    <option name="LAST_COMMIT_MESSAGE" value="RestApis_with_UnitTesting" />
+  </component>
+</project>
